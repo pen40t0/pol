@@ -5,12 +5,9 @@ This project provides a simple script to replace Polish letters with their ASCII
 
 ## Project Status
 
-[![Test Passing](https://img.shields.io/badge/test-passing-brightgreen)](https://github.com/psf/black/actions)
-[![Code Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen)](https://codecov.io/gh/psf/black)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![PyPI Version](https://img.shields.io/pypi/v/black.svg)](https://pypi.org/project/black/)
-[![Downloads](https://img.shields.io/pypi/dm/black.svg)](https://pypi.org/project/black/)
-[![Conda-forge](https://img.shields.io/conda/vn/conda-forge/black.svg)](https://conda-forge.org/packages/black/)
+[![Python Version](https://img.shields.io/badge/python-3.10+-brightgreen)](https://www.python.org/downloads/)
+[![Build Status](https://github.com/USERNAME/polish_alphabet_converter/actions/workflows/main.yml/badge.svg)](https://github.com/USERNAME/polish_alphabet_converter/actions)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
 
 
@@ -36,8 +33,8 @@ This project provides a simple script to replace Polish letters with their ASCII
 - Python 3.5 or later
 
 1. Open
-The Command Prompt   # On Windows
-The Terminal         # On macOS/Linux
+- The Command Prompt   # On Windows
+- The Terminal         # On macOS/Linux
 
 2. Clone the repository:
    ```bash
