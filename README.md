@@ -22,12 +22,15 @@ This project provides a simple script to replace Polish letters with their ASCII
 
 ## Installation
 
+
 ### Dependencies
 
 - Python (>= 3.5)
 - ???
 
+
 ### User Installation
+
 
 #### Prerequisites
 - Python 3.5 or later
@@ -57,17 +60,19 @@ python main.py
 7. Run Tests (Optional)
 python -m unittest discover -s tests
 
+
 ## Contributors
-Jake
-Ayshan
-Vaishnavi
+- Jake
+- Ayshan
+- Vaishnavi
+
 
 ## Changelog
 January 31, 2025         Version 0.1.0
-That's all folks XD
 <!-- Possibly make it a link and create a website That simply says this "Changelog January 31,2025 Version 0.1.0
 That's all folks XD"
 See https://github.com/psf/black/blob/main/README.md for example -->
+
 
 ## License
 MIT
