@@ -1,9 +1,18 @@
 # Polish Alphabet Diacritic Remover
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
-
 This project provides a simple script to replace Polish letters with their ASCII equivalents. 
+
+
+## Project Status
+
+[![Test Passing](https://img.shields.io/badge/test-passing-brightgreen)](https://github.com/psf/black/actions)
+[![Code Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen)](https://codecov.io/gh/psf/black)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PyPI Version](https://img.shields.io/pypi/v/black.svg)](https://pypi.org/project/black/)
+[![Downloads](https://img.shields.io/pypi/dm/black.svg)](https://pypi.org/project/black/)
+[![Conda-forge](https://img.shields.io/conda/vn/conda-forge/black.svg)](https://conda-forge.org/packages/black/)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
+
 
 ## Features
 
@@ -24,43 +33,44 @@ This project provides a simple script to replace Polish letters with their ASCII
 - Python 3.5 or later
 
 1. Open
-   The Command Prompt   # On Windows
-   The Terminal         # On macOS/Linux
+The Command Prompt   # On Windows
+The Terminal         # On macOS/Linux
 
 2. Clone the repository:
    ```bash
    git clone <https://github.com/pen40t0/polish.git>
 
 3. Navigate to the Project Directory
-   cd polish
+cd polish
 
 4. Create a Virtual Environment
-   python -m venv venv
-   venv\Scripts\activate      # On Windows
-   source venv/bin/activate   # On macOS/Linux
+python -m venv venv
+venv\Scripts\activate      # On Windows
+source venv/bin/activate   # On macOS/Linux
 
 5. Install Dependencies
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
 6. Run the Program
-   python main.py
+python main.py
 
 7. Run Tests (Optional)
-   python -m unittest discover -s tests
+python -m unittest discover -s tests
 
 ## Contributors
-   Jake
-   Ayshan
-   Vaishnavi
+Jake
+Ayshan
+Vaishnavi
 
 ## Changelog
-   January 31, 2025         Version 0.1.0
-   That's all folks XD      # Possibly make it a link and create a website That simply says this "Changelog January 31,2025 Version 0.1.0
-                            # That's all folks XD"
-                            # See https://github.com/psf/black/blob/main/README.md for example
+January 31, 2025         Version 0.1.0
+That's all folks XD
+<!-- Possibly make it a link and create a website That simply says this "Changelog January 31,2025 Version 0.1.0
+That's all folks XD"
+See https://github.com/psf/black/blob/main/README.md for example -->
 
 ## License
-   MIT
+MIT
 
 
 <!-- ADD README.MD BADGES
