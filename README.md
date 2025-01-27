@@ -5,10 +5,11 @@ This project provides a simple script to replace Polish letters with their ASCII
 
 ## Project Status
 
+[![Test](https://github.com/pen40t0/pol/actions/workflows/main.yml/badge.svg)](https://github.com/pen40t0/pol/actions/workflows/main.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.10+-brightgreen)](https://www.python.org/downloads/)
-[![Build Status](https://github.com/USERNAME/polish_alphabet_converter/actions/workflows/main.yml/badge.svg)](https://github.com/USERNAME/polish_alphabet_converter/actions)
+[![Python Version](https://img.shields.io/badge/python-3.5+-brightgreen)](https://www.python.org/downloads/)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
+[![PyPI Version](https://img.shields.io/pypi/v/black.svg)](https://pypi.org/project/black/)
 
 
 ## Features
