@@ -1,10 +1,5 @@
-# Ignore Python bytecode and cache files
+# Byte-compiled 
 __pycache__/
-*.pyc
-*.pyo
 
-# Ignore mypy cache
+# mypy
 .mypy_cache/
-
-# Ignore other common cache files
-*.cache

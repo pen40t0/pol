@@ -1,30 +1,21 @@
 # Polish Alphabet Diacritic Remover
-
 This project provides a simple script to replace Polish letters with their ASCII equivalents. 
 
 
 ## Project Status
-
-[![Test](https://github.com/pen40t0/pol/actions/workflows/main.yml/badge.svg)](https://github.com/pen40t0/pol/actions/workflows/main.yml)
+[![Python package](https://github.com/pen40t0/pol/actions/workflows/main.yml/badge.svg)](https://github.com/pen40t0/pol/actions/workflows/main.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.5+-brightgreen)](https://www.python.org/downloads/)
+[![Python version](https://img.shields.io/badge/python-3.5+-brightgreen)](https://www.python.org/downloads/)
+[![PyPI version](https://img.shields.io/pypi/v/black.svg)](https://pypi.org/project/black/)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
-[![PyPI Version](https://img.shields.io/pypi/v/black.svg)](https://pypi.org/project/black/)
-
+[![Discord](https://img.shields.io/discord/1243025843094294591?label=Join%20Discord&logo=discord&color=blue)](https://discord.gg/CbSdGanqvU)
 
 ## Features
-
 - Converts Polish characters with diacritics (e.g., `ą`, `ć`, etc.) to plain ASCII characters.
 - Lightweight and uses only Python's standard library.
 
 
 ## Installation
-
-
-### Dependencies
-
-- Python (>= 3.5)
-- ???
 
 
 ### User Installation
@@ -34,18 +25,21 @@ This project provides a simple script to replace Polish letters with their ASCII
 - Python 3.5 or later
 
 1. Open
-- The Command Prompt   # On Windows
-- The Terminal         # On macOS/Linux
+- The Command Prompt (On Windows)
+- The Terminal (On macOS/Linux)
 
 2. Clone the repository:
-   ```bash
-   git clone <https://github.com/pen40t0/polish.git>
+    ```bash
+    git clone <https://github.com/pen40t0/polish.git>
 
 3. Navigate to the Project Directory
-cd polish
+    ```bash
+    cd polish
 
 4. Create a Virtual Environment
-python -m venv venv
+    ```bash
+    python -m venv venv
+
 venv\Scripts\activate      # On Windows
 source venv/bin/activate   # On macOS/Linux
 
@@ -76,6 +70,10 @@ See https://github.com/psf/black/blob/main/README.md for example -->
 MIT
 
 
-<!-- ADD README.MD BADGES
-code style: black
-python 3.6 | 3.7 | 3.8 | 3.9 | 3.10 | 3.11 | 3.12 | 3.13 -->
+## TODOs / Future Work / Known issues
+- Always more efficient
+- Support tokenizers with overlapping positions (ie synonyms, etc)
+- Improve support for phrase slop
+- Helper functions (like this start at edismax that help recreate Solr / Elasticsearch lexical queries)
+- Fuzzy search
+- Efficient way to "slurp" some top N results from retrieval system into a dataframe

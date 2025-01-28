@@ -21,12 +21,12 @@ setup(
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author="Minh",
-    url="https://github.com/pen40t0/polish",
+    url="https://github.com/definitelynotminh/polish",
     packages=find_packages(exclude=["tests"]),
     install_requires=[],
     entry_points={
         "console_scripts": ["polish=__main__:main"]
     },
     extras_require={"test": ["unittest"]},
-    python_requires=">=3.6",
+    python_requires=">=3.5",
 )
